@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="window_background">#101218</color>
+    <color name="text_title">#E8E9EF</color>
+    <color name="text_primary">#E8E9EF</color>
+    <color name="text_secondary">#C2C4CC</color>
+    <color name="card_background">#454756</color>
+    <color name="fab_background">#0068D9</color>
+    <color name="fab_icon_tint">#FFFFFF</color>
+</resources>
