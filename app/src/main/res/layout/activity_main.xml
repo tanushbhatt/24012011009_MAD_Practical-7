@@ -10,7 +10,6 @@
     android:background="@color/window_background"
     tools:context=".MainActivity">
 
-    <!-- Screen Title -->
     <TextView
         android:id="@+id/tvTitle"
         android:layout_width="wrap_content"
@@ -24,7 +23,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- RecyclerView for Person List -->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
@@ -38,7 +36,6 @@
         app:layout_constraintTop_toBottomOf="@id/tvTitle"
         tools:listitem="@layout/item_person" />
 
-    <!-- Loading Indicator -->
     <ProgressBar
         android:id="@+id/progressBar"
         android:layout_width="wrap_content"
@@ -49,7 +46,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Empty State View -->
     <TextView
         android:id="@+id/tvEmptyState"
         android:layout_width="0dp"
@@ -66,7 +62,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Bottom Right Refresh Action Button -->
     <ImageButton
         android:id="@+id/fabRefresh"
         android:layout_width="56dp"
